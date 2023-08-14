@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JS Password Generator</h1>
+  <div class="main-box-container">
+    <div class="main-box">
+      <div class="check-div-container">
+        <div class="check-div">
+          <label for="UpperCase">
+            <input type="checkbox" id="UpperCase" name="UpperCase" value="UpperCase">
+            Uppercase
+          </label>
+          <label for="Numbers">
+            <input type="checkbox" id="Numbers" name="Numbers" value="Numbers">
+            Numbers
+          </label>
+          <label for="SpecialChars">
+            <input type="checkbox" id="SpecialChars" name="SpecialChars" value="Special-Chars">
+            Special Characters
+          </label>
+        </div>
+      </div>
+      <div class="password-length-container">
+        <div class="password-box-div">
+          <label for="passwordSelection">Password Length:</label>
+          <select id="passwordSelection" name="passwordSelection">
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+          </select>
+        </div>
+        </div>
+      <div class="content-container">
+        <div class="context-box">
+          <input type="text" class="output-box" > <img src="images/copy.png" class="copy-img" onclick="copyPassword()">
+        </div>
+      </div>
+      <div class="generte-conatiner">
+        <div class="generate-div">
+          <button class="generate-box">Generate </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

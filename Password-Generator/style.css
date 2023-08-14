@@ -1,0 +1,89 @@
+body {
+  background: rgb(174, 182, 238);
+  background: radial-gradient(circle, rgba(174,182,238,1) 0%, rgba(97,153,219,1) 100%);
+  font-family: sans-serif;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+  text-shadow: 6px 4px 17px rgba(0,0,0,0.78);
+}
+
+
+.output-box{
+  width: 300px;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+}
+
+
+.check-div-container {
+  margin: 0 auto; /* Center the div horizontally */
+  width: 50%; /* Set a width to prevent the div from stretching out to the edges of its container */
+  margin-bottom: 3%;
+}
+
+.check-div {
+  text-align: center; /* Center the text inside the child div */
+}
+
+.password-length-container{
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+.password-box-div{
+  text-align: center;
+}
+
+.content-container{
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.context-box{
+  text-align: center;
+}
+.generate-box{
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+.generate-container{
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 1%;
+}
+.generate-div{
+  text-align: center;
+}
+
+.main-box{
+  margin-top: 5%;
+}
+
+.output-box{
+  padding-left: 3%;
+}
+
+.copy-img{
+  width: 20px;
+  cursor: pointer;
+
+}
+
+.generate-box:hover{
+  opacity: 0.7;
+}
+
+.copy-img:hover{
+  opacity: 0.7;
+}
